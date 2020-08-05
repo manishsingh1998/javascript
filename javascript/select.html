@@ -1,0 +1,36 @@
+<html>
+
+<head>
+<title>My js code</title> 
+
+<script  type="text/javascript">
+
+        function fn1(){
+            
+            document.getElementById("para").innerHTML="DOm eg";
+            var sel=document.getElementById("selectBox");
+
+            alert(sel.options[sel.selectedIndex].innerHTML);
+
+        }
+
+</script>
+</title>
+
+</head>
+
+<body>
+    <p id="para">Selct Dom</p>
+
+      <select name="Language" id="selectBox">
+          <option value="hindi">Hindi</option>
+          <option value="marathi">Marathi</option>
+          <option value="english">English</option>
+          <option value="telugu">Telugu</option>
+      </select>
+
+      <button onclick="fn1()">Click me</button>
+
+</body>
+
+</html>
